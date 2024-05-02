@@ -1,3 +1,34 @@
+'''
+Requirements to create the expected result
+A dropdown menu: For choosing year
+A radioitem for choosing the Region
+The layout will be designed as follows:
+An outer division with two inner divisions (as shown in the expected layout)
+One of the inner divisions will have information about the radioitem and dropdown (which are the input) and the other one is for adding graphs(the 2 output graphs).
+Callback function to compute data, create graph and return to the layout.
+
+To do:
+Import required libraries and read the dataset
+Create an application layout
+Add title to the dashboard using HTML H1 component
+Add a radioitem using dcc.RaioItems and dropdown using dcc.dropdown
+Add the pie chart and bar chart core graph components.
+Run the app
+
+
+Install python packages required to run the application. Copy and paste the below command to the terminal.
+1. pip3.8 install setuptools
+2. python3.8 -m pip install packaging
+3. python3.8 -m pip install pandas dash
+4. pip3 install httpx==0.20 dash plotly
+
+
+Run the Application
+Next Run the python file using the command - python3.8 Dash_wildfire.py
+Observe the port number shown in the terminal.
+Click on the Launch Application option from the menu bar.Provide the port number and click OK
+'''
+
 import pandas as pd
 import dash
 from dash import html, dcc
