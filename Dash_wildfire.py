@@ -1,5 +1,5 @@
 '''
-Requirements to create the expected result
+Requirements to create the expected result:
 A dropdown menu: For choosing year
 A radioitem for choosing the Region
 The layout will be designed as follows:
